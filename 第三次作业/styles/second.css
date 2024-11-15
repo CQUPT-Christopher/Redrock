@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(244, 241,249);
+    background-image: url(/asset/grid.svg);
+    background-repeat: repeat;
+}
+.card {
+    border: 1px solid #222;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: pink;
+}
+.card:hover {
+    transform: scale(1.2);
+    transform: translateY(-40px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, .3);
+}
+.pic-wrapper{
+    width: 300px;
+    height: 300px;
+}
+video {
+    height: 100%;
+    width: 100%;
+
+}
+.title {
+    text-align: center;
+}
+button {
+    position: relative;
+    left: 100px;
+    text-align: center;
+    width: 100px;
+    background-color: pink;
+    border-radius: 10px;
+}
